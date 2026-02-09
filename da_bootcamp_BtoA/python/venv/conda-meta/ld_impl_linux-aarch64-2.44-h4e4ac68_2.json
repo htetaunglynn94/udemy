@@ -1,0 +1,52 @@
+{
+  "name": "ld_impl_linux-aarch64",
+  "version": "2.44",
+  "build": "h4e4ac68_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-aarch64",
+  "subdir": "linux-aarch64",
+  "fn": "ld_impl_linux-aarch64-2.44-h4e4ac68_2.conda",
+  "md5": "18328ad18956d228a084180a134ed390",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-aarch64/ld_impl_linux-aarch64-2.44-h4e4ac68_2.conda",
+  "sha256": "b4fdc07671e0c6ec90677905d1fb8caed806c2c3b9b15b2c422477a138ee2b78",
+  "depends": [
+    "__glibc >=2.28,<3.0.a0"
+  ],
+  "constrains": [
+    "binutils_impl_linux-aarch64 2.44"
+  ],
+  "license": "GPL-3.0-only",
+  "timestamp": 1759940098000,
+  "size": 820572,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/root/miniconda3/pkgs/ld_impl_linux-aarch64-2.44-h4e4ac68_2.conda",
+  "extracted_package_dir": "/root/miniconda3/pkgs/ld_impl_linux-aarch64-2.44-h4e4ac68_2",
+  "files": [
+    "aarch64-conda-linux-gnu/bin/ld",
+    "bin/aarch64-conda-linux-gnu-ld"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "aarch64-conda-linux-gnu/bin/ld",
+        "path_type": "softlink",
+        "sha256": "10f6568a7b068fc4be1dbe50eb92353759ed407b27c382178248540bb23e1353",
+        "size_in_bytes": 4138632
+      },
+      {
+        "_path": "bin/aarch64-conda-linux-gnu-ld",
+        "prefix_placeholder": "/home/task_175993959770902/conda-bld/binutils_split_1759939976814/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "10f6568a7b068fc4be1dbe50eb92353759ed407b27c382178248540bb23e1353",
+        "size_in_bytes": 4138632,
+        "sha256_in_prefix": "b824608724e7a485a3fcc06cbd20b4df7eb785bc23c528b015ca09bd644ef0d4"
+      }
+    ]
+  },
+  "link": {
+    "source": "/root/miniconda3/pkgs/ld_impl_linux-aarch64-2.44-h4e4ac68_2",
+    "type": 1
+  }
+}

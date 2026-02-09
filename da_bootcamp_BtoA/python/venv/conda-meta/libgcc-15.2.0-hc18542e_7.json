@@ -1,0 +1,121 @@
+{
+  "name": "libgcc",
+  "version": "15.2.0",
+  "build": "hc18542e_7",
+  "build_number": 7,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-aarch64",
+  "subdir": "linux-aarch64",
+  "fn": "libgcc-15.2.0-hc18542e_7.conda",
+  "md5": "a31a8c63a5fe7234863f8e9dd2b20901",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-aarch64/libgcc-15.2.0-hc18542e_7.conda",
+  "sha256": "06ae831ca00e09a65ba8b5536e8b728be3eb909e0cf041ebcc542b92fa4bc969",
+  "depends": [
+    "__glibc >=2.28,<3.0.a0",
+    "_openmp_mutex >=4.5"
+  ],
+  "constrains": [
+    "libgcc-ng ==15.2.0 *_7",
+    "libgomp 15.2.0 hf47c802_7"
+  ],
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "timestamp": 1762772353000,
+  "size": 511039,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/root/miniconda3/pkgs/libgcc-15.2.0-hc18542e_7.conda",
+  "extracted_package_dir": "/root/miniconda3/pkgs/libgcc-15.2.0-hc18542e_7",
+  "files": [
+    "lib/libatomic.so",
+    "lib/libatomic.so.1",
+    "lib/libatomic.so.1.2.0",
+    "lib/libgcc_s.so",
+    "lib/libgcc_s.so.1",
+    "lib/libitm.so",
+    "lib/libitm.so.1",
+    "lib/libitm.so.1.0.0",
+    "share/info/libgomp.info",
+    "share/info/libquadmath.info",
+    "share/licenses/gcc-libs/RUNTIME.LIBRARY.EXCEPTION"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libatomic.so",
+        "path_type": "softlink",
+        "sha256": "03e57bb85ea774460a2839c33a98faabf1c08187d5b41a24045e98c5e663b398",
+        "size_in_bytes": 219232
+      },
+      {
+        "_path": "lib/libatomic.so.1",
+        "path_type": "softlink",
+        "sha256": "03e57bb85ea774460a2839c33a98faabf1c08187d5b41a24045e98c5e663b398",
+        "size_in_bytes": 219232
+      },
+      {
+        "_path": "lib/libatomic.so.1.2.0",
+        "path_type": "hardlink",
+        "sha256": "03e57bb85ea774460a2839c33a98faabf1c08187d5b41a24045e98c5e663b398",
+        "size_in_bytes": 219232,
+        "sha256_in_prefix": "03e57bb85ea774460a2839c33a98faabf1c08187d5b41a24045e98c5e663b398"
+      },
+      {
+        "_path": "lib/libgcc_s.so",
+        "path_type": "hardlink",
+        "sha256": "69a56a9993b7729b29b274e65016031c81f2397f176ed5ad44d59bd50425e0bd",
+        "size_in_bytes": 132,
+        "sha256_in_prefix": "69a56a9993b7729b29b274e65016031c81f2397f176ed5ad44d59bd50425e0bd"
+      },
+      {
+        "_path": "lib/libgcc_s.so.1",
+        "path_type": "hardlink",
+        "sha256": "49a5f54cda39324d9d70bc67a476b23404d738bfef54b688d86f646855537d46",
+        "size_in_bytes": 593216,
+        "sha256_in_prefix": "49a5f54cda39324d9d70bc67a476b23404d738bfef54b688d86f646855537d46"
+      },
+      {
+        "_path": "lib/libitm.so",
+        "path_type": "softlink",
+        "sha256": "c1179e33976ff7cc5717e3e3bdec4d3eed67d96df1a8d77c89e270744758f5f9",
+        "size_in_bytes": 796520
+      },
+      {
+        "_path": "lib/libitm.so.1",
+        "path_type": "softlink",
+        "sha256": "c1179e33976ff7cc5717e3e3bdec4d3eed67d96df1a8d77c89e270744758f5f9",
+        "size_in_bytes": 796520
+      },
+      {
+        "_path": "lib/libitm.so.1.0.0",
+        "path_type": "hardlink",
+        "sha256": "c1179e33976ff7cc5717e3e3bdec4d3eed67d96df1a8d77c89e270744758f5f9",
+        "size_in_bytes": 796520,
+        "sha256_in_prefix": "c1179e33976ff7cc5717e3e3bdec4d3eed67d96df1a8d77c89e270744758f5f9"
+      },
+      {
+        "_path": "share/info/libgomp.info",
+        "path_type": "hardlink",
+        "sha256": "9183a74823a2193acf72e08915a06714ee3f6de413a6751f3cc265f2764517f6",
+        "size_in_bytes": 359250,
+        "sha256_in_prefix": "9183a74823a2193acf72e08915a06714ee3f6de413a6751f3cc265f2764517f6"
+      },
+      {
+        "_path": "share/info/libquadmath.info",
+        "path_type": "hardlink",
+        "sha256": "a8829e58df913add53edc8ec5570a17d6800a98fb69272ba7a18d54b08ba8f48",
+        "size_in_bytes": 36603,
+        "sha256_in_prefix": "a8829e58df913add53edc8ec5570a17d6800a98fb69272ba7a18d54b08ba8f48"
+      },
+      {
+        "_path": "share/licenses/gcc-libs/RUNTIME.LIBRARY.EXCEPTION",
+        "path_type": "hardlink",
+        "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+        "size_in_bytes": 3324,
+        "sha256_in_prefix": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74"
+      }
+    ]
+  },
+  "link": {
+    "source": "/root/miniconda3/pkgs/libgcc-15.2.0-hc18542e_7",
+    "type": 1
+  }
+}
