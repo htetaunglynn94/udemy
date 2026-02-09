@@ -1,6 +1,6 @@
 {
  "argv": [
-  "/home/htetaunglynn/git/udemy/da_bootcamp_BtoA/python/venv/bin/python",
+  "python",
   "-m",
   "ipykernel_launcher",
   "-f",
