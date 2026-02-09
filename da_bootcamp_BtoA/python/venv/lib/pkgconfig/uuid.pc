@@ -1,0 +1,11 @@
+prefix=/home/htetaunglynn/git/udemy/da_bootcamp_BtoA/python/venv
+exec_prefix=/home/htetaunglynn/git/udemy/da_bootcamp_BtoA/python/venv
+libdir=/home/htetaunglynn/git/udemy/da_bootcamp_BtoA/python/venv/lib
+includedir=/home/htetaunglynn/git/udemy/da_bootcamp_BtoA/python/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
