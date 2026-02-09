@@ -1,7 +1,0 @@
-prefix=/root/git/udemy/da_bootcamp_BtoA/python/venv
-includedir=${prefix}/include
- 
-Name: RecordProto
-Description: Record extension headers
-Version: 1.14.2
-Cflags: -I${includedir}

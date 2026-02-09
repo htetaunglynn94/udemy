@@ -1,7 +1,0 @@
-prefix=/root/git/udemy/da_bootcamp_BtoA/python/venv
-includedir=${prefix}/include
-
-Name: VideoProto
-Description: Video extension headers
-Version: 2.3.3
-Cflags: -I${includedir}

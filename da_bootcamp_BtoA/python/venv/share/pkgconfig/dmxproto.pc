@@ -1,7 +1,0 @@
-prefix=/root/git/udemy/da_bootcamp_BtoA/python/venv
-includedir=${prefix}/include
- 
-Name: DMXProto
-Description: DMX extension headers
-Version: 2.3.1
-Cflags: -I${includedir}

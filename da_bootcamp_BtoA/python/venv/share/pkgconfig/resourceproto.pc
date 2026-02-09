@@ -1,7 +1,0 @@
-prefix=/root/git/udemy/da_bootcamp_BtoA/python/venv
-includedir=${prefix}/include
- 
-Name: ResourceProto
-Description: Resource extension headers
-Version: 1.2.0
-Cflags: -I${includedir}
