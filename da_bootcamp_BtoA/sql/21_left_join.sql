@@ -1,0 +1,10 @@
+
+USE [Sales Database]
+
+-- SAME WITH LEFT OUTER JOIN
+SELECT * FROM table1 
+LEFT JOIN table2 ON TABLE1.C1 = TABLE2.C1
+
+SELECT B.C1, A.C2, B.C3 FROM table1 A 
+LEFT JOIN table2 B 
+ON A.C1 = B.C1
